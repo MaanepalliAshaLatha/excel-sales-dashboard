@@ -1,52 +1,49 @@
-📊 Superstore Sales Excel Dashboard
+📊 Superstore Sales Excel Dashboard<br>
 
-Tools: Microsoft Excel · Pivot Tables · Dashboard Design
-Dataset: 9,800 US orders · $2.26M total sales · Superstore (domestic)
-Goal: Build an interactive sales analysis dashboard using Excel pivot tables
+Tools: Microsoft Excel, Pivot Tables, Dashboard Design<br>
+Dataset: 9,800 US orders, $2.26M total sales, Superstore (domestic)<br>
+Goal: Build an interactive sales analysis dashboard using Excel pivot tables.<br><br>
 
-📌 Project Overview
+📌 Project Overview<br>
 
-This project demonstrates building a complete Excel analytics workbook from a raw sales dataset — without any external tools. All analysis was done using Excel's built-in capabilities: pivot tables, calculated columns, formulas, and chart-based dashboards.
+This project demonstrates building a complete Excel analytics workbook from a raw sales dataset without using any external tools. All analysis was performed using Excel's built-in features such as pivot tables, calculated columns, formulas, and chart-based dashboards.<br><br>
 
-📊 Analysis Sheets Built
+📊 Analysis Sheets Built<br>
 
-Sheet	Analysis
-rev_by_seg	Revenue by customer segment (Consumer · Corporate · Home Office)
-rev_by_cat	Revenue by product category (Technology · Furniture · Office Supplies)
-rev_by_region	Revenue by region (West · East · Central · South)
-rev_by_seg&cat	Cross-analysis: Segment × Category with Ship Mode filter
-rev_by_region&cat	Cross-analysis: Region × Category
-Dashboard	Visual chart dashboard
+• rev_by_seg – Revenue by customer segment (Consumer, Corporate, Home Office)<br>
+• rev_by_cat – Revenue by product category (Technology, Furniture, Office Supplies)<br>
+• rev_by_region – Revenue by region (West, East, Central, South)<br>
+• rev_by_seg&cat – Segment × Category cross-analysis with Ship Mode filter<br>
+• rev_by_region&cat – Region × Category cross-analysis<br>
+• Dashboard – Visual chart-based dashboard<br><br>
 
-🔢 Key Numbers
+🔢 Key Numbers<br>
 
-Metric	Value
-Total Sales	$2,261,537
-Top Segment	Consumer ($1,148,060 · 51%)
-Top Category	Technology ($827,456)
-Top Region	West ($710,220)
-Total Orders	9,800
+• Total Sales: $2,261,537<br>
+• Top Segment: Consumer ($1,148,060 · 51%)<br>
+• Top Category: Technology ($827,456)<br>
+• Top Region: West ($710,220)<br>
+• Total Orders: 9,800<br><br>
 
-🛠️ Excel Techniques Used
+🛠️ Excel Techniques Used<br>
 
-Pivot Tables — summarised sales across multiple dimensions
-IF + AVERAGE formula — created Aboove_Avg flag column (marks orders above dataset average)
-Nested IF — created Value_Tier column (Low / Medium / High) based on sales amount
-Group by Months — time-series breakdowns in pivot tables
-Ship Mode filter — used as slicer across the Segment × Category analysis
-Table Formatting — applied Excel Table format to raw data for dynamic pivot range
-Chart Dashboard — built from linked pivot charts
+• Pivot Tables to summarize sales across multiple dimensions<br>
+• IF + AVERAGE formula to create the Aboove_Avg flag column<br>
+• Nested IF to build the Value_Tier column (Low, Medium, High)<br>
+• Group by Months for time-series analysis in pivot tables<br>
+• Ship Mode filter used as a slicer for Segment × Category analysis<br>
+• Table Formatting applied to raw data for dynamic pivot ranges<br>
+• Chart Dashboard created from linked pivot charts<br><br>
 
-💡 Insights
+💡 Insights<br>
 
-Consumer segment accounts for 51% of all orders but not proportionally higher average order value
-Technology is the highest-revenue category; Furniture and Office Supplies are close behind
-West region leads in total revenue; South region is the smallest market
-Potential to target Corporate and Home Office segments — both are currently below Consumer share
+• The Consumer segment contributes 51% of all orders.<br>
+• Technology is the highest-revenue category; Furniture and Office Supplies follow closely.<br>
+• The West region generates the highest revenue; the South region is the lowest.<br>
+• Targeting Corporate and Home Office segments may unlock new growth opportunities.<br><br>
 
-📁 Files in this repo
+📁 Files in This Repository<br>
 
-File	Description
-train.xlsx	Full workbook with all analysis sheets and dashboard
-README.md	This file
-dashboard.png
+• train.xlsx — workbook with all analysis sheets and dashboard<br>
+• dashboard.png — Image of dashboard
+• README.md — documentation<br>
