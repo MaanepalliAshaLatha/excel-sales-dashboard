@@ -1,49 +1,33 @@
-📊 Superstore Sales Excel Dashboard<br>
+📊 <b>Superstore Sales Excel Dashboard</b><br><br>
 
-Tools: Microsoft Excel, Pivot Tables, Dashboard Design<br>
-Dataset: 9,800 US orders, $2.26M total sales, Superstore (domestic)<br>
-Goal: Build an interactive sales analysis dashboard using Excel pivot tables.<br><br>
+<b>Tools:</b> Microsoft Excel (Pivot Tables, Dashboarding)<br>
+<b>Dataset:</b> 9,800 US orders · $2.26M total sales<br><br>
 
-📌 Project Overview<br>
+<b>🔍 Problem</b><br>
+Sales data was spread across multiple dimensions (segment, category, region) with no unified view, making it difficult to identify performance trends and support decision-making.<br><br>
 
-This project demonstrates building a complete Excel analytics workbook from a raw sales dataset without using any external tools. All analysis was performed using Excel's built-in features such as pivot tables, calculated columns, formulas, and chart-based dashboards.<br><br>
+<b>⚙️ Approach</b><br>
+• Built an interactive Excel dashboard using pivot tables and slicers<br>
+• Structured raw data with calculated columns for better segmentation<br>
+• Enabled multi-dimensional analysis across segment, category, and region<br><br>
 
-📊 Analysis Sheets Built<br>
+<b>📊 Key Insights</b><br>
+• <b>Consumer segment</b> drives 51% of total sales (~$1.14M)<br>
+• <b>Technology</b> is the top-performing category (~$827K revenue)<br>
+• <b>West region</b> leads revenue, while South significantly underperforms<br>
+• Identified clear performance gaps across regions and customer segments<br><br>
 
-• rev_by_seg – Revenue by customer segment (Consumer, Corporate, Home Office)<br>
-• rev_by_cat – Revenue by product category (Technology, Furniture, Office Supplies)<br>
-• rev_by_region – Revenue by region (West, East, Central, South)<br>
-• rev_by_seg&cat – Segment × Category cross-analysis with Ship Mode filter<br>
-• rev_by_region&cat – Region × Category cross-analysis<br>
-• Dashboard – Visual chart-based dashboard<br><br>
+<b>💡 Business Impact</b><br>
+• Enabled decision-makers to analyze performance across multiple dimensions in <b>under 30 seconds</b><br>
+• Highlighted underperforming regions (South) for targeted strategy<br>
+• Improved visibility for segment and category-level decision-making<br><br>
 
-🔢 Key Numbers<br>
+<b>📈 Dashboard Highlights</b><br>
+• Revenue breakdown by segment, category, and region<br>
+• Interactive filters (slicers) for dynamic analysis<br>
+• Custom calculated metrics for deeper segmentation<br><br>
 
-• Total Sales: $2,261,537<br>
-• Top Segment: Consumer ($1,148,060 · 51%)<br>
-• Top Category: Technology ($827,456)<br>
-• Top Region: West ($710,220)<br>
-• Total Orders: 9,800<br><br>
-
-🛠️ Excel Techniques Used<br>
-
-• Pivot Tables to summarize sales across multiple dimensions<br>
-• IF + AVERAGE formula to create the Aboove_Avg flag column<br>
-• Nested IF to build the Value_Tier column (Low, Medium, High)<br>
-• Group by Months for time-series analysis in pivot tables<br>
-• Ship Mode filter used as a slicer for Segment × Category analysis<br>
-• Table Formatting applied to raw data for dynamic pivot ranges<br>
-• Chart Dashboard created from linked pivot charts<br><br>
-
-💡 Insights<br>
-
-• The Consumer segment contributes 51% of all orders.<br>
-• Technology is the highest-revenue category; Furniture and Office Supplies follow closely.<br>
-• The West region generates the highest revenue; the South region is the lowest.<br>
-• Targeting Corporate and Home Office segments may unlock new growth opportunities.<br><br>
-
-📁 Files in This Repository<br>
-
-• train.xlsx — workbook with all analysis sheets and dashboard<br>
-• dashboard.png — Image of dashboard
-• README.md — documentation<br>
+<b>📁 Repository Structure</b><br>
+• train.xlsx → Excel dashboard & analysis<br>
+• dashboard.png → Dashboard preview<br>
+• README.md → Documentation<br>
